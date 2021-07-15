@@ -1,0 +1,29 @@
+.contact__page{
+    padding: 4rem;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact__container{
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+
+.contact__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+  
+
+
+@media screen and (max-width: 960px){
+    .contact__items {
+        flex-direction: column;
+    }
+}

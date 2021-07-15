@@ -1,0 +1,20 @@
+.experience_page {
+    padding: 4rem;
+    background: #181a1b;
+    color: white;
+}
+
+
+.experience__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+  
+.experience__items {
+    margin-bottom: 24px;
+}
+  

@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > p{
+    font-size: 35px;
+    color: #39CCCC;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.footer > i{
+    font-size: 60px;
+    color: #39CCCC;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+
+.footer > i:hover{
+    color: #0b62f2;
+    transition: all 0.3 ease-out;
+}
