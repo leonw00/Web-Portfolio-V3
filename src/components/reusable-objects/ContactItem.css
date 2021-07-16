@@ -1,4 +1,5 @@
 .contact__item{
+    text-decoration: none;
     width: 300px;
     height: 300px;
     list-style: none;
@@ -10,9 +11,9 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background: #A1FFCE;  
-    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  
-    background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+    background: #fff;  
+    transition: all 0.3s ease-out;
+    color: #4701E9;  
 }
 
 .contact__item > a{
@@ -22,10 +23,12 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    color: #4701E9;  
 }
 
-.contact__item__src{
-    color: #4701E9;  
+
+.contact__item:hover{
+    background: #181a1b;  
 }
 
 

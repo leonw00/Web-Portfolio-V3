@@ -16,9 +16,11 @@ function ExperiencePage() {
                         <ExperienceItem
                             title = "Grader / Marker"
                             location = "University of Manitoba"
-                            duration = "August 2019 - December 2019"
+                            duration = "August 2020 - December 2020"
                             src = "logo/umanitoba.jpeg"
-                            text = "An android application that allows users to create flashcards to study from. This is a group project for my software engineer course where the project is built in Android Studio. By doing this project, I learn about the Agile Development Cycle, the importance of unit tests, integrations tests and system tests, cooperating and communicating with my group members to work efficiently and effectively and have developed a sense of estimating feature management."
+                            text = "As a Grader / Marker, my responsibilites are providing constructive feedback on the students’ assignments to make sure they understand their mistakes and
+                            grade the students’ tests, quizzes and assignments based on the rubric provided by the instructor fairly and objectively. Being a Grader, I have imporved my time management skill,
+                            being able to effectively finish my assigned work and keep my class grades well"
                         />
                         
                         <ExperienceItem
@@ -26,7 +28,9 @@ function ExperiencePage() {
                             location = "General Adjuster Indonesia"
                             duration = "May 2021 - July 2021"
                             src = "logo/gai.png"
-                            text = "An android application that allows users to create flashcards to study from. This is a group project for my software engineer course where the project is built in Android Studio. By doing this project, I learn about the Agile Development Cycle, the importance of unit tests, integrations tests and system tests, cooperating and communicating with my group members to work efficiently and effectively and have developed a sense of estimating feature management."
+                            text = "During my time working at General Adjuster Indonesia, I held various responsibilites from working with other adjusters to handling clients. Mainly as an assistant adjuster,
+                            I wrote highly detailed reports for adjusters and validates the quality and the accuracy of the reports. This has improved my ability to be more precise and accurate in my work. Furthermore,
+                            I also created a work management application that tracks the progress of all reports and schedules which made for a more efficient work flow."
                         />
                         
                     </Fade>

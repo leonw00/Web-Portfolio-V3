@@ -9,18 +9,62 @@ import postgresqlIcon from '@iconify-icons/logos/postgresql';
 import firebaseIcon from '@iconify-icons/logos/firebase';
 import javaIcon from '@iconify-icons/logos/java';
 import javascriptIcon from '@iconify-icons/logos/javascript';
+import mongodbIcon from '@iconify-icons/logos/mongodb';
+import dartIcon from '@iconify-icons/logos/dart';
+import dockerIcon from '@iconify-icons/logos/docker-icon';
+import supabaseIcon from '@iconify-icons/simple-icons/supabase';
+
 
 
 function CardItem(props) {
 
-    const language_array = ["java", "python", "javascript", "flutter"];
+    const language_array = props.languages;
     var tempIcon;
+    var language_container = [];
+    var divChild;
 
     for(var i = 0; i < language_array.length; i++){
+        
         if(language_array[i].match("java")){
-            tempIcon = djangoIcon;
-            <Icon icon = {tempIcon} className = "spacing"/>
+            tempIcon = javaIcon;
         }
+        else if(language_array[i].match("javascript")){
+            tempIcon = javascriptIcon;
+        }
+        else if(language_array[i].match("python")){
+            tempIcon = pythonIcon;
+        }
+        else if(language_array[i].match("django")){
+            tempIcon = djangoIcon;
+        }
+        else if(language_array[i].match("flutter")){
+            tempIcon = flutterIcon;
+        }
+        else if(language_array[i].match("postgresql")){
+            tempIcon = postgresqlIcon;
+        }
+        else if(language_array[i].match("firebase")){
+            tempIcon = firebaseIcon;
+        }
+        else if(language_array[i].match("mongodb")){
+            tempIcon = mongodbIcon;
+        }
+        else if(language_array[i].match("dart")){
+            tempIcon = dartIcon;
+        }
+        else if(language_array[i].match("docker")){
+            tempIcon = dockerIcon;
+        }
+        else if(language_array[i].match("supabase")){
+            tempIcon = supabaseIcon;
+        }
+        else{
+            tempIcon = "";
+        }
+        
+
+        divChild = <Icon icon = {tempIcon} className = "spacing" width = "1.4em" height = "1.4em"/>;
+        language_container.push(divChild);
     }
 
     return (
@@ -32,13 +76,7 @@ function CardItem(props) {
                 <h2 className = "card__item__title">{props.title}</h2>
                 <h3 className = "card__item__language">
                     Built With: 
-                    <Icon icon={djangoIcon} className = "spacing"/> 
-                    <Icon icon={pythonIcon} className = "spacing" /> 
-                    <Icon icon={flutterIcon} className = "spacing" />
-                    <Icon icon={postgresqlIcon} className = "spacing" />
-                    <Icon icon={firebaseIcon} className = "spacing" />
-                    <Icon icon={javaIcon}  className = "spacing"/>
-                    <Icon icon={javascriptIcon}  className = "spacing"/>
+                    {language_container}
                 </h3>
                 <div className = "card__item__text">
                     {props.text}

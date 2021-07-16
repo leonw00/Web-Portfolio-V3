@@ -41,8 +41,10 @@
     ]
   },
   "devDependencies": {
+    "@iconify-icons/bi": "^1.1.5",
     "@iconify-icons/bx": "^1.1.0",
     "@iconify-icons/logos": "^1.1.10",
+    "@iconify-icons/simple-icons": "^1.1.33",
     "@iconify/react": "^1.1.4"
   }
 }
