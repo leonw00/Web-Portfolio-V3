@@ -95,14 +95,14 @@
 
 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1160px){
 
     .hero-picture{
         display: none;
     }
 
     .main-container{
-        margin: 90px 80px 0px;
+        margin: 90px 10px 0px;
     }
 
     .hero-info{
@@ -125,3 +125,46 @@
         margin-top: -15px;
     }
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px){
+
+    .hero-picture{
+        display: none;
+    }
+
+    .main-container{
+        margin: 60px 25px 0px;
+    }
+
+    .hero-info{
+        margin-left: 0px;
+    }
+    
+
+    .hero-greeting{
+        font-size: 18px;
+    }
+
+    .hero-info > h1{
+        font-size: 50px;
+    }
+
+
+    .hero-description{
+        font-size: 20px;
+        margin-right: 40px;
+        margin-top: -15px;
+    }
+}
+
+
+
+
+

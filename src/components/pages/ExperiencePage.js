@@ -17,7 +17,7 @@ function ExperiencePage() {
                             title = "Grader / Marker"
                             location = "University of Manitoba"
                             duration = "August 2020 - December 2020"
-                            src = "logo/umanitoba.jpeg"
+                            src = "logo/umanitoba.png"
                             text = "As a Grader / Marker, my responsibilites are providing constructive feedback on the students’ assignments to make sure they understand their mistakes and
                             grade the students’ tests, quizzes and assignments based on the rubric provided by the instructor fairly and objectively. Being a Grader, I have imporved my time management skill,
                             being able to effectively finish my assigned work and keep my class grades well"

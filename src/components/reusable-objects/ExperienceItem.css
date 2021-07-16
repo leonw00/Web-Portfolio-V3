@@ -1,10 +1,10 @@
 .experience__item{
     width: 100%;
-    height: 300px;
+    height: auto;
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     padding: 0px 150px;
 }
 
@@ -21,6 +21,7 @@
     width: 180px;
     border-radius: 15px;
     object-fit: cover;
+    background-color: black;
 }
 
 .experience__item__info{
@@ -37,6 +38,7 @@
 .experience__item__duration{
     flex: 1;
     font-size: 20px;
+    margin-bottom: 7px;
 }
 
 .experience__item__title > i,
@@ -57,12 +59,34 @@
 
 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1160px){
     .experience__item{
         flex-direction: column;
-        height: 500px;
         padding: 0px;
         margin-bottom: 150px;
+    }
+
+
+    .experience__item__picture{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .experience__item__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+
+
+@media screen and (max-width: 960px){
+    .experience__item{
+        padding: 0px;
     }
 
 

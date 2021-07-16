@@ -53,3 +53,13 @@
     transition: all 0.3 ease-out;
     border: 2px solid #0b62f2;
 }
+
+
+
+@media screen and (max-width: 750px){
+
+    .btn {
+        padding: 8px 15px;
+    }
+
+}
